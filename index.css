@@ -1,0 +1,443 @@
+.body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Hero{
+    text-align: center;
+    max-width: 100%;
+    background-color: 255 255 255 1;
+    height: 90px; 
+    
+}
+.box{
+    max-width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 90px;
+    text-align: center;
+    width:1,150px;
+    
+}
+.Scissor{
+font-size: 30px;
+font-family: 'Gilroy-Bold';
+color: rgba(0, 101, 254, 1);
+width:99px;
+}
+.my-urls{
+font-family:'Gilroy-Meduim';
+color:rgba(0, 101, 254, 1);
+width: 69px;
+}
+.features{
+    width: 72px;
+    height: 22px;
+    top: 1px;
+    left: 109px;
+    font-family: 'Gilroy-Meduim';
+    
+}
+.Pricing, .Analytics, .FAQs {
+    font: 'Gilroy-Meduim';
+}
+
+.log-in{
+    color:rgba(0, 101, 254, 1);
+    font-family: 'Gilroy-SemiBold';
+    width: 45px;
+    height: 20px;
+    font-size: 16px;
+
+}
+.free{
+
+       border-radius: 20px 20px 20px 20px;
+        background-color: blue;
+        color: white;
+        display: inline;
+        font-size: 15px;
+        width: 142px;
+        padding: 8px 20px;
+        font-family: 'Gilroy-Meduim';
+}
+.box2{
+width: Hug (948px);
+height: Hug (389px);
+/*top: 162px;
+left: 246px;*/
+gap: 32px;
+position: relative;
+
+
+}
+.optimization{
+    font-size: 35px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-family: 'Gilroy-Bold';
+    color: rgba(20, 20, 20, 1);
+}
+.shortening{
+    color:rgba(0, 90, 226, 1)
+}
+.slash{
+margin:-35px  -70px 35px ;
+color:rgba(0, 90, 226, 1);
+position: absolute;
+
+
+}
+.Personalize{
+    margin: 15px 250px 30px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    line-height: 28px;
+    
+
+}
+.Sign-up{
+    border-radius: 100px;
+    background-color: blue;
+    color: white;
+    display: inline;
+    margin: 500px 35px 500px 500px;
+    font-size: 15px;
+    padding: 8px 20px ;
+    
+}
+.learn{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 15px;
+    color:rgba(0, 101, 254, 1);
+    display: inline;
+}
+.frame{
+    margin: -200px 500px 30px 250px;
+    position: absolute;
+    text-align: center;
+    display: inline;
+    background-color: rgba(226, 233, 240, 0.9);
+}
+.yoke{
+    position: relative;
+    margin: 60px 250px -35px;
+}
+.oval{
+    margin:20px 50px 20px 60px  ;
+    display: inline;
+    position:absolute;
+}
+.rectangle{
+    margin:90px 50px 50px -150px;
+   /* display: inline;*/
+    
+}
+.one-stop{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 70px;
+    position: absolute;
+}
+.Possibilities{
+    color: blue;
+}
+.Active-users{ 
+columns: 4;
+margin: 20px 350px;
+}
+.columnA{
+    font-family:'Gilroy-Bold';
+    font-size: 20px;
+    position: relative;
+}
+.columnB{
+    font-family:'Gilroy-Meduim';
+    font-size: 12px;
+}
+.line-7{ 
+
+        position: absolute;
+        margin-left:-5px   
+    }
+.scissors{
+    color: blue;
+}
+.extra{
+    columns: 2;
+    row-gap: 2;
+display: block;
+overflow: hidden;
+margin: 20px 250px ;
+line-height: 2em
+} 
+.price-container{
+    text-align: center;
+    position: relative;
+    width: Hug (576px);
+    height: Hug 108px;
+    margin-bottom: 70px;
+    line-height: 3em;
+}
+
+.line-70{
+    position: absolute;
+    margin-left:-270px
+}
+.why-choose{
+    font-family: 'Gilroy-Bold';
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.perfect-price{
+font-size: 40px;
+font-family: 'Gilroy-SemiBold';
+}
+.price{
+    color: blue;
+}
+.catering{
+    font-family: 'Gilroy-Meduim';
+    margin-top: -25px;
+    line-height: 20px;
+}
+.basic{
+columns: 3;
+display: block;
+overflow: hidden;
+margin: x;
+line-height: 2em;
+}
+.basic-free{
+border: 1px solid rgba(0, 101, 254, 1);;
+width: 200px;
+margin: 20px 210px;
+border-radius: 8px 8px;
+}
+.Professional{
+background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+border: 1px solid black;
+color: aliceblue;
+text-align: justify;
+border-radius: 10px 10px;
+line-height: 2.3em;
+width: 250px;
+}
+.teams{
+border: 1px solid rgba(0, 101, 254, 1);
+width: 210px;
+margin:100px -153px;
+border-radius: 8px 8px;
+}
+
+.month,.freee, .month-2{
+    font-size: 30px;
+    font-family: 'Gilroy-Bold'
+}
+.business, .free-plans ,.users{
+    font-size: 20px;
+    font-family: 'Gilroy-SemiBold';
+}
+.custom-pricing{ 
+    border: 1px solid rgba(0, 101, 254, 1);
+    border-radius: 100px;
+    color: rgba(0, 101, 254, 1);
+    background-color:white;
+    text-align: center;
+    display: inline;
+    margin: 50px 50px 50px 350px;
+    padding: 10px 24px;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+}
+.pricing{
+    border: 1px solid blue;
+    border-radius: 100px;
+    color: white;
+    background-color:rgba(0, 101, 254, 1);
+    text-align: center;
+    display: inline;
+    margin: 20px -40px 20px;
+    padding: 10px 24px;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+}
+.box3{
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px 20px;
+    text-align: center;
+}
+/*.paste{
+    border: 1px solid blue;
+    border-radius:10px 10px ;
+    background-color:white;
+    color: rgba(0, 101, 254, 1);
+    padding: 5px 200px 5px 15px;
+    margin: 30px 50px 20px 30px;
+    /*margin-left: 20;
+    margin-right: 50px;*/
+    /*display: inline;
+    font-family: Gilroy-Meduim;
+    font-size: 12px;
+    display:flex
+    ;
+}
+.domain{
+    border:1px solid blue;
+    border-radius: 10px 10px;
+    background-color: white;
+    color:rgba(0, 101, 254, 1);
+    padding:5px 5px 15px;
+    margin:30px 20px ; 
+    font-size: 12px;
+    font-family:Gilroy-Meduim;
+    position: absolute;
+}
+.allias{
+    border:1px solid blue;
+    border-radius: 10px 10px;
+    background-color: white;
+    color:rgba(0, 101, 254, 1);
+    padding:5px 50px  10px 5px;
+    margin:30px 20px ; 
+    display: inline;
+    font-size: 12px;
+    font-family: Gilroy-Meduim;
+}*/
+.trim-url{ border-radius: 100px;
+    background-color: blue;
+    color: white;
+    margin: 15px 430px;
+    font-size: 15px;
+    padding: 5px 25px
+}
+.wand{
+    margin: -7px 2px 15px -10px;
+    
+}
+.terms-condition{
+    font-size: 12px;
+    font-family: 'Gilroy-Meduim';
+    box-sizing: border-box;
+}
+.faqs{
+    
+    width: Hug (792px);
+    height: Hug (955px);
+    box-sizing: border-box;
+    margin: 30px 300px;
+    line-height: 2em;
+}
+.Fa{
+font-family: 'gilroy-Bold';
+text-align: center;
+}
+.plus{
+    margin:  50px;
+}
+.revolution{
+    background-color: rgba(30, 52, 72, 0);
+    border: 1px solid black;
+    margin: 40px 100px;
+    padding: 50px 100px;
+    background-color: #1E3448;
+    color: white;
+    background: ;
+}
+.Revolution{
+font-family:'Gilroy-Bold';
+font-size: 30px;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 30px;
+
+}
+.button{
+    border: 1px solid blue;
+    border-radius: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:  300px;
+}
+.fr{
+position: relative;
+width: 1440px;
+height: 561px;
+background: #FFFFFF;
+
+}
+.logo{
+    display: inline;
+}
+.main{columns: 4;
+ row-gap: 2;
+margin: 20px 250px;
+line-height: 2em;
+display: block;
+padding: 0px;
+gap: 24px;
+/*position: absolute;*/
+width: 812px;
+height: 384px;
+
+}
+.A{
+font-family: 'Gilroy-Bold';
+font-size: 16px;
+line-height: 30px;
+height:40px ;
+}
+.scissor-pricing{
+    width: 131px;
+    height: 72px;
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #112232;
+    margin-bottom: 20px;
+}
+.social-media{
+margin-bottom:20px ;
+}
+.link-mgt{
+margin-bottom: 20px;
+}
+.careers{
+margin-bottom: 20px;
+}
+
+.library{
+width: 132px;
+height: 192px;
+font-family: 'Gilroy-Medium';
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #112232;
+margin-bottom: 20px;
+}
+.branded-links{
+    margin-bottom: 20px;
+
+}
+.cookie{
+margin-bottom: 20px;
+}
